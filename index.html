@@ -6,7 +6,8 @@
       body {
         background-color: #c1cffa;
         font-family: "Comic Sans MS", sans-serif;
-        margin-top: 100px;
+        margin-top: 280px;
+        font-size: 200%;
       }
 
       /* Style untuk modal */
@@ -63,15 +64,15 @@
       function f() {
         var Bn = document.getElementById("Bn");
         if (flag == 1) {
-          Bn.style.top = "550px";
+          Bn.style.top = "950px";
           Bn.style.left = "720px";
           flag = 2;
         } else if (flag == 2) {
-          Bn.style.top = "580px";
+          Bn.style.top = "980px";
           Bn.style.left = "450px";
           flag = 3;
         } else if (flag == 3) {
-          Bn.style.top = "620px";
+          Bn.style.top = "1020px";
           Bn.style.left = "666px";
           flag = 1;
         }
@@ -103,7 +104,7 @@
       style="
         position: absolute;
         left: 40vw;
-        top: 500px;
+        top: 900px;
         width: 210px;
         height: 210px;
       "
@@ -117,7 +118,7 @@
           padding: 8px 16px;
           border: none;
           box-shadow: 0 4px 8px rgba(0, 255, 255, 0.5);
-          font-size: 16px;
+          font-size: 30px;
           font-weight: bold;
         "
         onClick="f1()"
@@ -128,7 +129,7 @@
       style="
         position: absolute;
         left: 55vw;
-        top: 500px;
+        top: 900px;
         width: 210px;
         height: 210px;
       "
@@ -143,7 +144,7 @@
           color: white;
           border: none;
           box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5);
-          font-size: 16px;
+          font-size: 30px;
           font-weight: bold;
         "
         onMouseOver="f()"
